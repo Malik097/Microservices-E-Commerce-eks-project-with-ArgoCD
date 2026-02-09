@@ -3,10 +3,10 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "bucket1" {
-  bucket = "zeeshan-1997-EKS"
+  bucket = "zeeshan-1997-eks"
 
   tags = {
-    Name        = "zeeshan-1997-EKS"
+    Name        = "zeeshan-1997-eks"
     Environment = "dev"
   }
 }
@@ -19,10 +19,10 @@ resource "aws_s3_bucket_versioning" "bucket1_versioning" {
 }
 
 resource "aws_s3_bucket" "bucket2" {
-  bucket = "zeeshan-1997-ECR"
+  bucket = "zeeshan-1997-ecr"
 
   tags = {
-    Name        = "zeeshan-1997-ECR"
+    Name        = "zeeshan-1997-ecr"
     Environment = "dev"
   }
 }
