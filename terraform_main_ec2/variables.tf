@@ -70,11 +70,11 @@ variable "ami_id" {
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t2.large"
+  default     = "t3.medium"
 }
 
 variable "key_name" {
-  description = "EC2 keypair"
+  description = "my-key-8-feb"
   type        = string
   default     = "us-east-1"
 }
@@ -84,4 +84,4 @@ variable "instance_name" {
   type        = string
   default     = "Jumphost-server"
 }
-#
+
