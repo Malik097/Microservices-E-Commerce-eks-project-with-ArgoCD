@@ -43,7 +43,7 @@ pipeline {
             environment {
                 GIT_REPO_NAME = "Microservices-E-Commerce-eks-project-with-ArgoCD"
                 GIT_EMAIL = "malikmzeeshan97@gmail.com"
-                GIT_USER_NAME = "Malik097"
+                GIT_USER_NAME = "Malik097" 
                 IMAGE_NAME = "shippingservice"
                 REPO_URL = "242201296943.dkr.ecr.us-east-1.amazonaws.com/shippingservice"
                 YAML_FILE = "shippingservice.yaml"
