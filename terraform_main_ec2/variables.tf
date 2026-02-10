@@ -64,19 +64,19 @@ variable "iam-role" {
 variable "ami_id" {
   description = "AMI ID for the EC2 instance"
   type        = string
-  default     = "ami-0532be01f26a3de55" // Replace with the latest AMI ID for your region
+  default     = "ami-0b6c6ebed2801a5cb" // Replace with the latest AMI ID for your region
 }
 
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t3.medium"
+  default     = "t3.small"
 }
 
 variable "key_name" {
-  description = "JumpHost"
+  description = "JumpHost-key"
   type        = string
-  default     = "us-east-1"
+  default     = "JumpHost"
 }
 
 variable "instance_name" {
